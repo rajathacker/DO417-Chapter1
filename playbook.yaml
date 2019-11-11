@@ -1,0 +1,8 @@
+---
+- name: Copying a test file
+  hosts: all
+  tasks:
+  - name: Copying test.txt
+    win_copy:
+      src: test.txt
+      dest: C:\\Users\\Administrator\\Desktop\tex.txt
