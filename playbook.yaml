@@ -5,4 +5,4 @@
   - name: Copying test.txt
     win_copy:
       src: test.txt
-      dest: C:\\Users\\Administrator\\Desktop\tex.txt
+      dest: C:\\Users\\Administrator\\Desktop\test.txt
