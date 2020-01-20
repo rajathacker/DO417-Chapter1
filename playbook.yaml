@@ -6,3 +6,6 @@
     win_copy:
       src: test.txt
       dest: C:\\Users\\Administrator\\Desktop\\test.txt
+  - name: Printing Hello World
+    debug:
+      msg: 'Hello World!'
